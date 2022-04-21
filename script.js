@@ -1,4 +1,4 @@
-<script>
+
 var button = document.querySelector(".bar"),links = document.querySelector(".nav-links");
 
    button.addEventListener("click",()=>{
@@ -8,4 +8,3 @@ var button = document.querySelector(".bar"),links = document.querySelector(".nav
    button.children[1].classList.toggle("toggle2");
    button.children[2].classList.toggle("toggle3");
    })
-</script>
